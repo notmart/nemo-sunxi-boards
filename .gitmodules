@@ -1,0 +1,3 @@
+[submodule "sunxi-boards"]
+	path = sunxi-boards
+	url = https://github.com/linux-sunxi/sunxi-boards.git

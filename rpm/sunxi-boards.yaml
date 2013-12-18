@@ -1,0 +1,364 @@
+Name: sunxi-boards
+Summary: Sys_config files of sunxi board variations
+Description: |
+    Sunxi sys_config boot file variations
+Version: 1.0
+Release: 1
+Group: System/Boot
+URL: http://linux-sunxi.org
+License: GPLv2
+Sources:
+    - "%{name}-%{version}.tar.xz"
+    - sunxi-boards-spec-file-helper.sh
+    - README-PACKAGER.txt 
+PkgBR:
+    - sunxi-tools 
+Configure: none
+Builder: none
+Requires:
+    - sunxi-boards-eoma68-a10
+    - sunxi-boards-pcduino
+    - sunxi-boards-a13_olinuxino_micro
+    - sunxi-boards-a13_olinuxino
+    - sunxi-boards-a13_mid
+    - sunxi-boards-r7
+    - sunxi-boards-mk802plus_a10s
+    - sunxi-boards-zatab
+    - sunxi-boards-uhost_u1a
+    - sunxi-boards-pov_protab2_ips_3g
+    - sunxi-boards-pov_protab2_ips9
+    - sunxi-boards-mk802ii
+    - sunxi-boards-mk802
+    - sunxi-boards-mk802-1gb
+    - sunxi-boards-mini-x
+    - sunxi-boards-mini-x-1gb
+    - sunxi-boards-mele_a1000g
+    - sunxi-boards-mele_a1000
+    - sunxi-boards-inet97f-ii
+    - sunxi-boards-hyundai_a7hd
+    - sunxi-boards-hackberry
+    - sunxi-boards-h6
+    - sunxi-boards-gooseberry_a721
+    - sunxi-boards-dns_m82
+    - sunxi-boards-cubieboard_512
+    - sunxi-boards-cubieboard
+    - sunxi-boards-coby_mid9742
+    - sunxi-boards-coby_mid8042
+    - sunxi-boards-coby_mid7042
+    - sunxi-boards-ba10_tv_box
+    - sunxi-boards-a10_mid_1gb
+
+Files:
+    - "%doc README" 
+
+
+SubPackages:
+    - Name:  a10_mid_1gb
+      Summary: Sys_config boot files of board a10_mid_1gb
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/a10_mid_1gb-script.bin
+
+    - Name:  ba10_tv_box
+      Summary: Sys_config boot files of board ba10_tv_box
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/ba10_tv_box-script.bin
+
+    - Name:  coby_mid7042
+      Summary: Sys_config boot files of board coby_mid7042
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/coby_mid7042-script.bin
+
+    - Name:  coby_mid8042
+      Summary: Sys_config boot files of board coby_mid8042
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/coby_mid8042-script.bin
+
+    - Name:  coby_mid9742
+      Summary: Sys_config boot files of board coby_mid9742
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/coby_mid9742-script.bin
+
+    - Name:  cubieboard
+      Summary: Sys_config boot files of board cubieboard
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/cubieboard-script.bin
+
+    - Name:  cubieboard_512
+      Summary: Sys_config boot files of board cubieboard_512
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/cubieboard_512-script.bin
+
+    - Name:  dns_m82
+      Summary: Sys_config boot files of board dns_m82
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/dns_m82-script.bin
+
+    - Name:  gooseberry_a721
+      Summary: Sys_config boot files of board gooseberry_a721
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/gooseberry_a721-script.bin
+
+    - Name:  h6
+      Summary: Sys_config boot files of board h6
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/h6-script.bin
+
+    - Name:  hackberry
+      Summary: Sys_config boot files of board hackberry
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/hackberry-script.bin
+
+    - Name:  hyundai_a7hd
+      Summary: Sys_config boot files of board hyundai_a7hd
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/hyundai_a7hd-script.bin
+
+    - Name:  inet97f-ii
+      Summary: Sys_config boot files of board inet97f-ii
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/inet97f-ii-script.bin
+
+    - Name:  mele_a1000
+      Summary: Sys_config boot files of board mele_a1000
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/mele_a1000-script.bin
+
+    - Name:  mele_a1000g
+      Summary: Sys_config boot files of board mele_a1000g
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/mele_a1000g-script.bin
+
+    - Name:  mini-x-1gb
+      Summary: Sys_config boot files of board mini-x-1gb
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/mini-x-1gb-script.bin
+
+    - Name:  mini-x
+      Summary: Sys_config boot files of board mini-x
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/mini-x-script.bin
+
+    - Name:  mk802-1gb
+      Summary: Sys_config boot files of board mk802-1gb
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/mk802-1gb-script.bin
+
+    - Name:  mk802
+      Summary: Sys_config boot files of board mk802
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/mk802-script.bin
+
+    - Name:  mk802ii
+      Summary: Sys_config boot files of board mk802ii
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/mk802ii-script.bin
+
+    - Name:  pov_protab2_ips9
+      Summary: Sys_config boot files of board pov_protab2_ips9
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/pov_protab2_ips9-script.bin
+
+    - Name:  pov_protab2_ips_3g
+      Summary: Sys_config boot files of board pov_protab2_ips_3g
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/pov_protab2_ips_3g-script.bin
+
+    - Name:  uhost_u1a
+      Summary: Sys_config boot files of board uhost_u1a
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/uhost_u1a-script.bin
+
+    - Name:  zatab
+      Summary: Sys_config boot files of board zatab
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/zatab-script.bin
+
+    - Name:  mk802plus_a10s
+      Summary: Sys_config boot files of board mk802plus_a10s
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/mk802+_a10s-script.bin
+
+    - Name:  r7
+      Summary: Sys_config boot files of board r7
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/r7-script.bin
+
+    - Name:  a13_mid
+      Summary: Sys_config boot files of board a13_mid
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/a13_mid-script.bin
+
+    - Name:  a13_olinuxino
+      Summary: Sys_config boot files of board a13_olinuxino
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/a13_olinuxino-script.bin
+
+    - Name:  a13_olinuxino_micro
+      Summary: Sys_config boot files of board a13_olinuxino_micro
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/a13_olinuxino_micro-script.bin
+
+    - Name:  pcduino
+      Summary: Sys_config boot files of board pcduino
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/pcduino-script.bin
+
+    - Name:  eoma68-a10
+      Summary: Sys_config boot files of board eoma68-a10
+      Group: System/Boot
+      AutoDepend: false
+      Description: |
+          This package contain board specifiy script.bin files
+
+      Files:
+          - /boot/eoma68-a10-script.bin

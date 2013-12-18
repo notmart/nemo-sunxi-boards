@@ -1,0 +1,30 @@
+* Mon Dec 16 2013 Marco Martin <mart@kde.org> - 1.0+git20131216.101441
+- Update automatically tarball from repository.
+- Repository URL: https://github.com/notmart/sunxi-boards.git
+- Branch:  master
+- Commit ID: dc34a0b9431531ef109c315abbd811d2c869b2f3
+
+* Sun Dec 15 2013 Marco Martin <mart@kde.org> - 1.0+git20131215.152203
+- Update automatically tarball from repository.
+- Repository URL: https://github.com/linux-sunxi/sunxi-boards.git
+- Branch:  master
+- Commit ID: 6cccbc070cb16b30e10cc89f0403498e7cbf8e95
+
+* Sun May 19 2013 Maurice de la Ferté <kadava@gmx.de> - 1.0+git20130519.184118
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/linux-sunxi/sunxi-boards.git
+- Branch:  master
+- Commit ID: ee3b614f6b9cadaab461ae3c42105b8a205c1a2c
+
+* Mon Apr 01 2013 Maurice de la Ferté <kadava@gmx.de> - 1.0+git20130401.133656
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/linux-sunxi/sunxi-boards.git
+- Branch:  master
+- Commit ID: d9907c6b0d2aa59e8c124dafcd208705ee92ecc9
+
+* Wed Mar 13 2013 Maurice de la Ferté <kadava@gmx.de> - 1.0+git20130313.104133
+- Update automatically tarball from repository.
+- Add helper scripts for sub packages
+- Repository URL: git://github.com/linux-sunxi/sunxi-boards.git
+- Branch:  master
+- Commit ID: 88d663db44f65b73ef65c4148a28c6fa3665d2b6
