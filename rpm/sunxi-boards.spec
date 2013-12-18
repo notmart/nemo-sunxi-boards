@@ -565,6 +565,14 @@ Provides:   sunxi-board
 %description  yarvik_tab260
 This package contain board specifiy script.bin files
 
+%package jesurun-q5
+Summary:    Sys_config boot files of board jesurun-q5
+Group:      System/Boot
+Provides:   sunxi-board
+
+%description  jesurun-q5
+This package contain board specifiy script.bin files
+
 %prep
 #%define _buildrootdir %{_topdir}/BUILDROOT
 
@@ -983,6 +991,11 @@ mv /boot/yarvik_tab260-script.bin /boot/script.bin
 %preun yarvik_tab260
 mv /boot/script.bin /boot/yarvik_tab260-script.bin
 
+%post jesurun-q5
+mv /boot/jesurun-q5-script.bin /boot/script.bin
+
+%preun jesurun-q5
+mv /boot/script.bin /boot/jesurun-q5-script.bin
 
 
 %files
@@ -1377,3 +1390,8 @@ mv /boot/script.bin /boot/yarvik_tab260-script.bin
 # >> files yarvik_tab260
 # << files yarvik_tab260
 
+%files jesurun-q5
+%defattr(-,root,root,-)
+/boot/jesurun-q5-script.bin
+# >> files jesurun-q5
+# << files jesurun-q5
