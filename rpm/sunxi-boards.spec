@@ -293,14 +293,6 @@ Provides:   sunxi-board
 %description eoma68-a10
 This package contain board specifiy script.bin files
 
-%package eoma68-a20
-Summary:    Sys_config boot files of board eoma68-a20
-Group:      System/Boot
-Provides:   sunxi-board
-
-%description eoma68-a20
-This package contain board specifiy script.bin files
-
 %package A31_EVB
 Summary:    Sys_config boot files of board A31_EVB
 Group:      System/Boot
@@ -787,12 +779,6 @@ mv /boot/eoma68_a10-script.bin /boot/script.bin
 %preun eoma68-a10
 mv /boot/script.bin /boot/eoma68_a10-script.bin
 
-%post eoma68-a20
-mv /boot/eoma68_a20-script.bin /boot/script.bin
-
-%preun eoma68-a20
-mv /boot/script.bin /boot/eoma68_a20-script.bin
-
 %post A31_EVB
 mv /boot/A31_EVB-script.bin /boot/script.bin
 
@@ -1185,12 +1171,6 @@ mv /boot/script.bin /boot/yarvik_tab260-script.bin
 /boot/eoma68_a10-script.bin
 # >> files eoma68-a10
 # << files eoma68-a10
-
-%files eoma68-a20
-%defattr(-,root,root,-)
-/boot/eoma68_a20-script.bin
-# >> files eoma68-a20
-# << files eoma68-a20
 
 %files A31_EVB
 %defattr(-,root,root,-)
