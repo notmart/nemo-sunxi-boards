@@ -19,7 +19,7 @@ Source1:    sunxi-boards-spec-file-helper.sh
 Source2:    README-PACKAGER.txt
 Source100:  sunxi-boards.yaml
 BuildRequires:  sunxi-tools
-Requires(postin): /bin/mv
+Requires(post): /bin/mv
 Requires(postun): /bin/mv
 
 %description
